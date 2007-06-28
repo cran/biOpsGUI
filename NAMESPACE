@@ -1,0 +1,4 @@
+import(RGtk2)
+
+#useDynLib(biOpsGUI)
+exportPattern("^[^\\.]")
