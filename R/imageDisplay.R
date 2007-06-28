@@ -74,6 +74,8 @@ imgDisplay <- function(imgdata){
 	sn <- GtkStateType["normal"]+1
 	
 	gdkDrawRgbImage(window, fcgc[[sn]], 0, 0, size$width, size$height, "max", buf, size$width * 3)
+
+	return(TRUE)
 }
 
 # .on_darea_expose_gray <- function(widget, event, buf){
